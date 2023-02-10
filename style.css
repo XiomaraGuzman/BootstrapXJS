@@ -1,0 +1,103 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Rajdhani', sans-serif;    
+}
+
+form {
+    color: white;
+}
+.imagen{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.carrusel {
+    
+    width: 730px;
+    height: 740px;
+}
+
+.imgP{
+    width:320PX ;
+    height: 550px;
+}
+
+nav {
+
+background-image: url(./imagenes/textural_marmol.jpeg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.card {
+background: linear-gradient(to right,black 300px,blue 400px,red 700px);
+
+}
+.im {
+background: linear-gradient(to bottom,black 300px,red 400px,black 700px);
+width: 335px;
+opacity: 75%;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image:url(./imgGale/texture.jpg); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding: 30px;
+   /* margin-top: 5%;*/
+    margin-bottom: 5%;
+
+    
+}
+.gallery{
+    display: flex;
+    gap: 50px;
+    width: 85vw;
+    height: 50vmin;
+    margin-top: 100px;
+
+
+}
+.gallery img {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50;
+    transition: all 0.7s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-box-shadow: 5px 4px 5px 0px rgba(24, 24, 24, 0.74);
+    box-shadow: 10px 10px 10px 5px rgba(24, 24, 24, 0.74);
+}
+.gallery img:hover {
+    flex: 6;
+    -webkit-filter: grayscale(0);
+    filter:grayscale(0)
+}
+
+.bodyformulario {
+background-image: url(./imagenes/helmet.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.font {
+font-weight:bold;
+}
+
+
+
+
